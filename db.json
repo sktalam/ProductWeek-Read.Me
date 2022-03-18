@@ -6,7 +6,7 @@
     "name":"The Complete Angular Developer Course ",
     "author":"John",
     "price":499,
-    "imageUrl":"./assets/images/HashedIn_Logo.jpeg",
+    "imageUrl":"/assets/images/HashedIn_Logo.jpeg",
     "discount":10,
      "tags":"Angular "
     },
@@ -22,7 +22,7 @@
         "name":"The Complete SpringBoot Developer Course ",
         "author":"John",
         "price":699,
-        "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+        "imageUrl":"https://images.app.goo.gl/iULp66jpqpSVaySx7",
         "discount":10,
         "tags":"SpringBoot "
     },
@@ -30,7 +30,7 @@
       "name":"The Complete Java Developer Course ",
       "author":"John",
       "price":799,
-      "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+      "imageUrl":"assets/images/HashedIn_Logo.jpeg",
       "discount":10,
       "tags":"Java "
   },
@@ -62,7 +62,7 @@
     "name":"The Complete DevOps Developer2 Course ",
     "author":"John",
     "price":1199,
-    "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+    "imageUrl":"assets/images/HashedIn_Logo.jpeg",
     "discount":10,
     "tags":"DevOps2 "
   }
