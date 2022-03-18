@@ -1,0 +1,90 @@
+{
+
+  "products":
+  [
+    {"id": 1,
+    "name":"The Complete Angular Developer Course ",
+    "author":"John",
+    "price":499,
+    "imageUrl":"./assets/images/HashedIn_Logo.jpeg",
+    "discount":10,
+     "tags":"Angular "
+    },
+    { "id": 2,
+      "name":"The Complete React Developer Course ",
+      "author":"John",
+      "price":599,
+      "imageUrl":"/assets/images/HashedIn_Logo.jpeg",
+      "discount":10,
+       "tags":"React "
+    },
+    {   "id": 3,
+        "name":"The Complete SpringBoot Developer Course ",
+        "author":"John",
+        "price":699,
+        "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+        "discount":10,
+        "tags":"SpringBoot "
+    },
+    { "id": 4,
+      "name":"The Complete Java Developer Course ",
+      "author":"John",
+      "price":799,
+      "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+      "discount":10,
+      "tags":"Java "
+  },
+  { "id": 5,
+    "name":"The Complete Python Developer Course ",
+    "author":"John",
+    "price":899,
+    "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+    "discount":10,
+    "tags":"Python "
+  },
+  { "id": 6,
+    "name":"The Complete ML Developer Course ",
+    "author":"John",
+    "price":999,
+    "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+    "discount":10,
+    "tags":"ML "
+  },
+  { "id": 7,
+    "name":"The Complete DevOps Developer Course ",
+    "author":"John",
+    "price":1099,
+    "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+    "discount":10,
+    "tags":"DevOps "
+  },
+  { "id": 8,
+    "name":"The Complete DevOps Developer2 Course ",
+    "author":"John",
+    "price":1199,
+    "imageUrl":"./src/assets/images/HashedIn_Logo.jpeg",
+    "discount":10,
+    "tags":"DevOps2 "
+  }
+  ],
+
+  "cart":[],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,10 +1,16 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Product } from '../models/product';
+import { Observable } from 'rxjs';
+
+
+const apiUrl='http://localhost:3000/products';
+
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-  products : Product[]=[
+ /* products : Product[]=[
     new Product(1,"The Complete Angular Developer Course ",
     "John",499,"/assets/images/HashedIn_Logo.jpeg",10,"Angular "),
     new Product(2,"The Complete React Developer Course ",
@@ -21,11 +27,11 @@ export class ProductService {
     "John",1099,"/assets/images/HashedIn_Logo.jpeg",10,"Angular "),
     new Product(8,"The Complete DevOps Developer 2 Course ",
     "John",1199,"/assets/images/HashedIn_Logo.jpeg",10,"Angular "),
-  ];
-  constructor() { }
+  ];*/
+  constructor(private http:HttpClient) { }
 
-  getProducts() : Product[]
+  getProducts() : Observable<Product[]>
   {
-      return this.products;
+      return this.http.get<Product[]>(apiUrl);
   }
 }
