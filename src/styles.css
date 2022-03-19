@@ -33,3 +33,12 @@
   background-color: orange;
   color: whitesmoke;
 }
+
+.fa-heart{
+  color:coral;
+  cursor: pointer;
+}
+.fa-heart:hover{
+  color:blueviolet;
+  
+}
